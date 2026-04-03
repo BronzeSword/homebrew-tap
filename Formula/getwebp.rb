@@ -1,17 +1,17 @@
 class Getwebp < Formula
   desc "Fast WebP converter — JPEG/PNG/BMP to WebP, zero native dependencies"
   homepage "https://getwebp.com"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BronzeSword/getwebp-cli/releases/download/v1.0.0/getwebp-macos-arm64"
-      sha256 "d1293de1d929e152169a866e11a186f431ec63c01e1c4f778252813042328eb0"
+      url "https://github.com/BronzeSword/getwebp-cli/releases/download/v1.0.1/getwebp-macos-arm64"
+      sha256 "ede7b2e0ea18cbf380f8762615b878d62bb964bb1c40c12beb139519368af019"
     end
     on_intel do
-      url "https://github.com/BronzeSword/getwebp-cli/releases/download/v1.0.0/getwebp-macos-x64"
-      sha256 "deef0ae1d0cddf9db03608a8ef40ceec9b05c862604b9a13f67013ad805db4a0"
+      url "https://github.com/BronzeSword/getwebp-cli/releases/download/v1.0.1/getwebp-macos-x64"
+      sha256 "42da51ae8c1e60b45e9b5be2aac33f0169ccea05072c8701115986555d68073b"
     end
   end
 
